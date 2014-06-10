@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>metrics</key>
+	<array>
+		<dict>
+			<key>metric</key>
+			<string>a1</string>
+			<key>mname</key>
+			<string>Amount 1</string>
+			<key>type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>metric</key>
+			<string>a2</string>
+			<key>mname</key>
+			<string>Amount 2</string>
+			<key>type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>metric</key>
+			<string>a3</string>
+			<key>mname</key>
+			<string>Amount 3</string>
+			<key>type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>metric</key>
+			<string>t1</string>
+			<key>mname</key>
+			<string>Time 1</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>metric</key>
+			<string>t2</string>
+			<key>mname</key>
+			<string>Time 2</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>metric</key>
+			<string>t3</string>
+			<key>mname</key>
+			<string>Time 3</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>metric</key>
+			<string>hr</string>
+			<key>mname</key>
+			<string>Heart Rate</string>
+			<key>type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>metric</key>
+			<string>w</string>
+			<key>mname</key>
+			<string>Weight</string>
+			<key>type</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

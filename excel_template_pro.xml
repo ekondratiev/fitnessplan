@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+    xmlns:o="urn:schemas-microsoft-com:office:office"
+    xmlns:x="urn:schemas-microsoft-com:office:excel"
+    xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+    xmlns:html="http://www.w3.org/TR/REC-html40">
+    
+    <Worksheet ss:Name="FitnessPlan">
+        <Table>
+            <Row>
+                <Cell><Data ss:Type="String">Name</Data></Cell>
+                <Cell><Data ss:Type="String">Date</Data></Cell>
+                <Cell><Data ss:Type="String">Amount 1 Name</Data></Cell>
+                <Cell><Data ss:Type="String">Amount 1</Data></Cell>
+                <Cell><Data ss:Type="String">Amount 2 Name</Data></Cell>
+                <Cell><Data ss:Type="String">Amount 2</Data></Cell>
+                <Cell><Data ss:Type="String">Amount 3 Name</Data></Cell>
+                <Cell><Data ss:Type="String">Amount 3</Data></Cell>
+                <Cell><Data ss:Type="String">Time 1</Data></Cell>
+                <Cell><Data ss:Type="String">Time 2</Data></Cell>
+                <Cell><Data ss:Type="String">Time 3</Data></Cell>
+                <Cell><Data ss:Type="String">Heart Rate</Data></Cell>
+                <Cell><Data ss:Type="String">Weight</Data></Cell>
+                <Cell><Data ss:Type="String">Feeling</Data></Cell>
+                <Cell><Data ss:Type="String">Weather Temperature</Data></Cell>
+                <Cell><Data ss:Type="String">Weather Cloudiness</Data></Cell>
+                <Cell><Data ss:Type="String">Comment</Data></Cell>
+            </Row>
+            __EXPORT_DATA__
+        </Table>
+    </Worksheet>
+</Workbook>

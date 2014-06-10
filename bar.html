@@ -1,0 +1,118 @@
+<!DOCTYPE html >
+<html>
+<head>
+
+    <script src="RGraph.common.core.js" ></script>
+    <script src="RGraph.common.annotate.js" ></script>
+    <script src="RGraph.bar.js" ></script>
+
+    <script>
+                
+        function secondsToString(seconds)
+        {
+            var numhours = Math.floor(seconds / 3600);
+            var numminutes = Math.floor((seconds % 3600) / 60);
+            var numseconds = (seconds % 3600) % 60;
+            
+            var timeString = "";
+            
+            if(numhours)
+                timeString += numhours + "h" + numminutes + "m";
+            else
+                timeString += numminutes + "m" + numseconds;
+            
+            return timeString;
+        }
+        
+        function formatter1(obj, num)
+        {
+            num = Number(num) + __ADDICTION_1__;
+            
+            if(__IS_TIME_VALUE_1__)
+                return secondsToString(num);
+            
+            if(num > 9999)
+                return (num / 10000).toFixed(2) + "K";
+            
+            return num;
+        }
+        
+        function formatter2(obj, num)
+        {
+            num = Number(num) + __ADDICTION_2__;
+            
+            if(__IS_TIME_VALUE_2__)
+                return secondsToString(num);
+            
+            if(num > 9999)
+                return (num / 10000).toFixed(2) + "K";
+            
+            return num;
+        }
+        
+        window.onload = function ()
+        {
+            line2 = new RGraph.Bar('workouts', [__WORKOUTS_DATA_1__]);
+            line2.Set('chart.hmargin', 10);
+            line2.Set('chart.labels', [__LABELS__]);
+            line2.Set('chart.text.size', 8);
+            line2.Set('chart.text.angle', 30);
+            line2.Set('chart.linewidth', 1);
+            line2.Set('chart.scale.formatter', formatter1);
+            line2.Set('chart.background.grid.color', '#aaa');
+            line2.Set('chart.background.grid.width', 1);
+            line2.Set('chart.background.grid.autofit', true);
+            line2.Set('chart.shadow', true);
+            line2.Set('chart.shadow.offsetx', 1);
+            line2.Set('chart.shadow.offsety', -1);
+            line2.Set('chart.ymax', __YMAX_1__);
+            //line2.Set('chart.units.post', 'l');
+            line2.Set('chart.gutter', 45);
+            //line2.Set('chart.noxaxis', true);
+            line2.Set('chart.noendxtick', true);
+            //line2.Set('chart.width', 440);
+            line2.Set('chart.axis.color', '#f05042');
+            line2.Set('chart.colors', ['#f05042','DodgerBlue']);
+            line2.Set('chart.strokestyle', 'rgba(0,0,0,0)');
+            line2.Set('chart.key', [__METRICS_NAMES__]);
+            line2.Set('chart.key.text.size', 8);
+            line2.Set('chart.key.position', 'gutter');
+            line2.Set('chart.key.position.gutter.boxed', false);
+            line2.Set('chart.key.color.shape', 'circle');
+            line2.Set('chart.key.background', 'rgba(255,255,255,0.5)');
+            line2.Draw();
+            
+            if(__IS_METRIC_2__)
+            {
+                line3 = new RGraph.Bar('workouts', [__WORKOUTS_DATA_2__]);
+                line3.Set('chart.hmargin', 10);
+                line3.Set('chart.linewidth', 2);
+                line3.Set('chart.scale.formatter', formatter2);
+                line3.Set('chart.text.size', 8);
+                line3.Set('chart.shadow', true);
+                line3.Set('chart.shadow.offsetx', 1);
+                line3.Set('chart.shadow.offsety', -1);
+                line3.Set('chart.yaxispos', 'right');
+                line3.Set('chart.noxaxis', true);
+                line3.Set('chart.noendxtick', true);
+                line3.Set('chart.background.grid', false);
+                line3.Set('chart.ymax', __YMAX_2__);
+                line3.Set('chart.axis.color', 'DodgerBlue');
+                line3.Set('chart.colors', ['#f05042','DodgerBlue']);
+                line3.Set('chart.strokestyle', 'rgba(0,0,0,0)');
+                //line3.Set('chart.title.yaxis.pos', 12.7);
+                //line3.Set('chart.title.yaxis', 'aaa');
+                line3.Set('chart.gutter', 45);
+                //line3.Set('chart.width', 440);
+                line3.Draw();
+            }
+        }
+    </script>
+    
+    <style type="text/css">
+        body { margin: 0px 0px 0px 0px; }
+    </style>
+
+</head>
+<body style="background-color: transparent"><div><canvas id="workouts" width="460" height="220">[No canvas support]</canvas></div></body>
+</html>

@@ -1,0 +1,160 @@
+<html>
+    <head>
+        <style type="text/css">
+            body {
+                font-family: helvetica;
+            }
+            table {
+                border-width: 1px;
+                border-spacing: ;
+                border-style: solid;
+                border-color: gray;
+                border-collapse: collapse;
+                background-color: white;
+            }
+            table th {
+                border-width: 1px;
+                padding: 4px;
+                border-style: inset;
+                border-color: gray;
+                background-color: white;
+            }
+            table td {
+                border-width: 1px;
+                padding: 4px;
+                border-style: inset;
+                border-color: gray;
+                background-color: white;
+            }
+        </style>        
+    </head>
+    <body>
+        <h1>FitnessPlan 3.0 Manual</h1>
+        
+        <h2>Getting Started</h2>
+        
+        <p>This application will help you to track fitness exercises you have done and to plan future ones.</p>
+        
+        <p>Every time you do an exercise, you enter here the date, time and some details for it. It is possible to create recurrent activities. You may also track your progress or overall amount of each discipline practice within a period of time with History view.</p>
+        
+        <p>See the main screen with labels.</p>
+        
+        <img src="help_main_screen.png" />
+        
+        <h2>Pro Version</h2>
+        
+        <p>Version 3.0 of FitnessPlan includes one paid feature - Pro mode.You can buy it as in-app purchase from the "About" and the "History" screens. This purchase will unlock additional fields for your workouts. These fields are: two additional amount fields, two additional expended time fields, heart rate, weight, feeling and weather condition for every workout. What's more, it adds a completely new feature - metrics. You can use it to calculate you own special performance indicators and use it in the graph.</p>
+        
+        <h2>Creating a Workout</h2>
+        
+        <p>To create a new workout you can press the [+] button or tap on any empty space on the screen. In this case the popup dialog will appear and you should confirm creation on the selected day and rough time. You will be able to change the date and time later.</p>
+        
+        <img src="help_workout_edit.png" />
+        
+        <p>Enter as much workout details as you want and press [Save] button to save it. Or [Cance] to cancel.</p>
+        
+        <p>Note, that now you can change the name of every amount field. Just press the amount label and enter the name you want.</p>
+        
+        <h2>Viewing and Modifying The Workout</h2>
+        
+        <p>To view previously created workout press its button on the main screen. The workout view window will be displayed.</p>
+        
+        <img src="help_workout_view.png" />
+        
+        <p>To modify it press [Edit] button. Note, that changing the date or time of repeating workout will break the recurrency chain. In other words, such workout becomes standalone. But it will not affect anything except deletion of all the chain.</p>
+        
+        <p>You can delete the workout from editing window. When you delete repeating workout you will be asked if you what to delete exactly one workout or all the chain up to the end starting from edited workout.</p>
+        
+        <p>If you've bought Pro features you will be able here, in workout view screen, to manage you own metrics.</p>
+        
+        <img src="help_metrics.png" />
+        
+        
+        <a name="metrics"/>
+        <h2>Metrics</h2>
+        
+        <p>Metrics are available for Pro feature only. Metrics are just formulas you create to calculate the performance indicator you need (pace or summarized amount, for instance).</p>
+        
+        <p>Every metric consists of two parameters: formula and type.</p>
+        
+        <p>The formula is just a normal formula with +, -, *, - and parentheses as you use in Excel, for example, but no functions (like sin, cos or sum) available. To calculate you real workout data you use special predefined variables (listed below).</p>
+        
+        <p>Type is very important. Type could be Value or Time. Value is just a value, like the distance you've run. Time is also a value but treated as number of seconds and minutes. Time metrics are being displayed in time format (HH:MM:SS).</p>
+        
+        <p>See the examples of metrics below.</p>
+        
+        <h3>Predefined Variables</h3>
+        
+        <table>
+            <tr><th>Variable names</th><th>Description</th></tr>
+            <tr>
+                <td>a1, amount</td>
+                <td>first amount</td>
+            </tr>
+            <tr>
+                <td>a2</td>
+                <td>second amount</td>
+            </tr>
+            <tr>
+                <td>a3</td>
+                <td>third amount</td>
+            </tr>
+            <tr>
+                <td>t1, time</td>
+                <td>first time (in seconds)</td>
+            </tr>
+            <tr>
+                <td>t2</td>
+                <td>second time (in seconds)</td>
+            </tr>
+            <tr>
+                <td>t3</td>
+                <td>third time (in seconds)</td>
+            </tr>
+            <tr>
+                <td>hr, hrate</td>
+                <td>heart rate</td>
+            </tr>
+            <tr>
+                <td>w, wgt, weight</td>
+                <td>weight</td>
+            </tr>
+        </table>
+        
+        <p>Note that t1, t2 and t3 fields store seconds.</p>
+        
+        <h3>Examples</h3>
+        
+        <p><b>t1 / a1</b> -- pace (min per km) if you put km in the first amount field, or<br>
+        <b>t1 / (a1 / 1000)</b> if you put meters. Use <b>type Time</b>.</p>
+        
+        <p><b>(a2 * a3) / t1</b> -- speed if you put number of loops in a3 and loop distance in a2. Use <b>type Value</b>.</p>
+        
+        <p><b>a2 / hr</b> -- it could be the distance (or climbing) / heart stroke calculation. Use <b>type Value</b>.</p>
+        
+        
+        <h2>History</h2>
+        
+        <p>Press [History] button to open the History screen.</p>
+        
+        <img src="help_history.png" />
+        
+        <p>History screen will let you select the discipline (workout name) and one or two metrics to be shown in the graph.Press [Display] button to display the graph screen.</p>
+        
+        <h2>Settings</h2>
+        
+        <p>To access the app settings use system Settings app.</p>
+        
+        <img src="help_settings.png" />
+        
+        <p>Here are the following settings parameters:</p>
+        <ul>
+        <li><b>"Touch on tap"</b> use it to create the new workout by tapping on the empty space.</li>
+        <li><b>"Big buttons"</b> switch the buttons view. If you use not so many workouts in a day, its better to use the big buttons.</li>
+        <li><b>"Future in gray"</b> displays future workouts in gray color.</li>
+        <li><b>"Copy notes"</b> copies notes text when you create the new workout with the same name. Notes will be copied from the latest existing workout.</li>
+        <li><b>"Temperature units"</b> is just a string to be used for the temperature field (Celsius or Farenheits).</li>
+        </ul>
+        
+    </body>
+</html>

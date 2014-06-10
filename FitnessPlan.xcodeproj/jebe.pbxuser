@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* FitnessPlanAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 1035}}";
+			sepNavSelRange = "{214, 69}";
+			sepNavVisRange = "{0, 794}";
+		};
+	};
+	1D3623250D0F684500981E51 /* FitnessPlanAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 16260}}";
+			sepNavSelRange = "{5363, 0}";
+			sepNavVisRange = "{4282, 334}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* FitnessPlan */ = {
+		activeExec = 0;
+		executables = (
+			8F150A1B12F4A0E500E5B4F1 /* FitnessPlan */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 8F150A1B12F4A0E500E5B4F1 /* FitnessPlan */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* FitnessPlan */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* FitnessPlan */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 8F150A3612F4A0EA00E5B4F1 /* Code sense */;
+		executables = (
+			8F150A1B12F4A0E500E5B4F1 /* FitnessPlan */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 321800387;
+			PBXWorkspaceStateSaveDate = 321800387;
+		};
+		perUserProjectItems = {
+			8F82055A1305A0D000D3724C /* PBXTextBookmark */ = 8F82055A1305A0D000D3724C /* PBXTextBookmark */;
+			8F82055D1305A0D000D3724C /* PBXTextBookmark */ = 8F82055D1305A0D000D3724C /* PBXTextBookmark */;
+			8F87F8F2132E4AAB00896FC4 /* PBXTextBookmark */ = 8F87F8F2132E4AAB00896FC4 /* PBXTextBookmark */;
+			8F87F8F3132E4AAB00896FC4 /* PBXTextBookmark */ = 8F87F8F3132E4AAB00896FC4 /* PBXTextBookmark */;
+			8F87F908132E4AF800896FC4 /* PBXTextBookmark */ = 8F87F908132E4AF800896FC4 /* PBXTextBookmark */;
+			8F87F90A132E4AFB00896FC4 /* PBXTextBookmark */ = 8F87F90A132E4AFB00896FC4 /* PBXTextBookmark */;
+			8F98156A130159CB009AC5F8 /* PBXTextBookmark */ = 8F98156A130159CB009AC5F8 /* PBXTextBookmark */;
+			8FDC5C0B132E24AF00385A3B /* PBXTextBookmark */ = 8FDC5C0B132E24AF00385A3B /* PBXTextBookmark */;
+			8FDC5C60132E29EA00385A3B /* PlistBookmark */ = 8FDC5C60132E29EA00385A3B /* PlistBookmark */;
+			8FDC5C63132E29EA00385A3B /* PBXTextBookmark */ = 8FDC5C63132E29EA00385A3B /* PBXTextBookmark */;
+			8FDC5C64132E29EA00385A3B /* PBXTextBookmark */ = 8FDC5C64132E29EA00385A3B /* PBXTextBookmark */;
+			8FDC5C65132E29EA00385A3B /* PBXTextBookmark */ = 8FDC5C65132E29EA00385A3B /* PBXTextBookmark */;
+			8FDC5C66132E29EA00385A3B /* PBXTextBookmark */ = 8FDC5C66132E29EA00385A3B /* PBXTextBookmark */;
+			8FDC5C67132E29EA00385A3B /* PBXTextBookmark */ = 8FDC5C67132E29EA00385A3B /* PBXTextBookmark */;
+			8FDC5CB1132E2D6700385A3B /* PBXTextBookmark */ = 8FDC5CB1132E2D6700385A3B /* PBXTextBookmark */;
+			8FDC5CFE132E313900385A3B /* PBXTextBookmark */ = 8FDC5CFE132E313900385A3B /* PBXTextBookmark */;
+			8FDC5D00132E313900385A3B /* PBXTextBookmark */ = 8FDC5D00132E313900385A3B /* PBXTextBookmark */;
+			8FDC5D0B132E31AA00385A3B /* PBXTextBookmark */ = 8FDC5D0B132E31AA00385A3B /* PBXTextBookmark */;
+			8FDC5D0C132E31AA00385A3B /* PBXTextBookmark */ = 8FDC5D0C132E31AA00385A3B /* PBXTextBookmark */;
+			8FDC5D0D132E31AA00385A3B /* PBXTextBookmark */ = 8FDC5D0D132E31AA00385A3B /* PBXTextBookmark */;
+			8FDC5D22132E32CA00385A3B /* PBXTextBookmark */ = 8FDC5D22132E32CA00385A3B /* PBXTextBookmark */;
+			8FDC5D31132E39CB00385A3B /* PBXTextBookmark */ = 8FDC5D31132E39CB00385A3B /* PBXTextBookmark */;
+			8FE87FF413057CB800625A62 /* PBXTextBookmark */ = 8FE87FF413057CB800625A62 /* PBXTextBookmark */;
+			8FE87FFD13057D0C00625A62 /* PBXTextBookmark */ = 8FE87FFD13057D0C00625A62 /* PBXTextBookmark */;
+			8FE8800813057D5800625A62 /* PBXTextBookmark */ = 8FE8800813057D5800625A62 /* PBXTextBookmark */;
+			8FE8801D13057DE600625A62 /* PBXTextBookmark */ = 8FE8801D13057DE600625A62 /* PBXTextBookmark */;
+			8FE8802C13057E6F00625A62 /* PBXTextBookmark */ = 8FE8802C13057E6F00625A62 /* PBXTextBookmark */;
+			8FE8802D13057E6F00625A62 /* PBXTextBookmark */ = 8FE8802D13057E6F00625A62 /* PBXTextBookmark */;
+			8FE8804913057FC200625A62 /* PBXTextBookmark */ = 8FE8804913057FC200625A62 /* PBXTextBookmark */;
+			8FE8804B13057FC200625A62 /* PBXTextBookmark */ = 8FE8804B13057FC200625A62 /* PBXTextBookmark */;
+			8FE8804D13057FC200625A62 /* PBXTextBookmark */ = 8FE8804D13057FC200625A62 /* PBXTextBookmark */;
+			8FE8805013057FC200625A62 /* PBXTextBookmark */ = 8FE8805013057FC200625A62 /* PBXTextBookmark */;
+			8FE8805113057FC200625A62 /* PBXTextBookmark */ = 8FE8805113057FC200625A62 /* PBXTextBookmark */;
+			8FE880D81305849000625A62 /* PBXTextBookmark */ = 8FE880D81305849000625A62 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 8F150A3512F4A0EA00E5B4F1 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8F150A1B12F4A0E500E5B4F1 /* FitnessPlan */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = FitnessPlan;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	8F150A3512F4A0EA00E5B4F1 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	8F150A3612F4A0EA00E5B4F1 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8F82055A1305A0D000D3724C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE74DEED123B385500D57323 /* Settings.h */;
+		name = "Settings.h: 46";
+		rLen = 0;
+		rLoc = 1027;
+		rType = 0;
+		vrLen = 1008;
+		vrLoc = 133;
+	};
+	8F82055D1305A0D000D3724C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE74DE23123AA84F00D57323 /* WorkoutButton.m */;
+		name = "WorkoutButton.m: 143";
+		rLen = 0;
+		rLoc = 3454;
+		rType = 0;
+		vrLen = 1152;
+		vrLoc = 2944;
+	};
+	8F82057E1305A42800D3724C /* Metric.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 450}}";
+			sepNavSelRange = "{549, 0}";
+			sepNavVisRange = "{220, 337}";
+		};
+	};
+	8F82057F1305A42800D3724C /* Metric.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 255}}";
+			sepNavSelRange = "{218, 0}";
+			sepNavVisRange = "{16, 214}";
+		};
+	};
+	8F87F8F2132E4AAB00896FC4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE4C118C123FEBA400A71372 /* WorkoutViewController.m */;
+		name = "WorkoutViewController.m: 409";
+		rLen = 0;
+		rLoc = 14143;
+		rType = 0;
+		vrLen = 1570;
+		vrLoc = 12492;
+	};
+	8F87F8F3132E4AAB00896FC4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE4C107C123FBDCD00A71372 /* DateSelectVC.h */;
+		name = "DateSelectVC.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 619;
+		vrLoc = 0;
+	};
+	8F87F908132E4AF800896FC4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE89713A1247362600672AF3 /* EditWorkoutViewController.m */;
+		name = "EditWorkoutViewController.m: 16";
+		rLen = 0;
+		rLoc = 361;
+		rType = 0;
+		vrLen = 486;
+		vrLoc = 627;
+	};
+	8F87F90A132E4AFB00896FC4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE89713A1247362600672AF3 /* EditWorkoutViewController.m */;
+		name = "EditWorkoutViewController.m: 16";
+		rLen = 0;
+		rLoc = 361;
+		rType = 0;
+		vrLen = 1243;
+		vrLoc = 312;
+	};
+	8F9814AC13014C9E009AC5F8 /* GCMathParser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 735}}";
+			sepNavSelRange = "{1100, 0}";
+			sepNavVisRange = "{0, 889}";
+		};
+	};
+	8F9814AD13014C9E009AC5F8 /* GCMathParser.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 3255}}";
+			sepNavSelRange = "{2738, 0}";
+			sepNavVisRange = "{1407, 110}";
+		};
+	};
+	8F9814AE13014C9E009AC5F8 /* Implementation Notes */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {908, 2310}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{3215, 970}";
+		};
+	};
+	8F9814AF13014C9E009AC5F8 /* ZExpParser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 885}}";
+			sepNavSelRange = "{436, 0}";
+			sepNavVisRange = "{0, 642}";
+		};
+	};
+	8F9814B013014C9E009AC5F8 /* ZExpParser.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 12540}}";
+			sepNavSelRange = "{19638, 0}";
+			sepNavVisRange = "{18986, 654}";
+		};
+	};
+	8F98156A130159CB009AC5F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8F9814AD13014C9E009AC5F8 /* GCMathParser.m */;
+		name = "GCMathParser.m: 184";
+		rLen = 0;
+		rLoc = 2738;
+		rType = 0;
+		vrLen = 575;
+		vrLoc = 942;
+	};
+	8F9E9AF112F5AB1D008C228F /* chart2.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 108}, {1002, 665}}";
+		};
+	};
+	8FDC5C0B132E24AF00385A3B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* FitnessPlanAppDelegate.h */;
+		name = "FitnessPlanAppDelegate.h: 15";
+		rLen = 69;
+		rLoc = 214;
+		rType = 0;
+		vrLen = 794;
+		vrLoc = 0;
+	};
+	8FDC5C17132E268700385A3B /* perfectly26.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 208}, {1002, 665}}";
+		};
+	};
+	8FDC5C55132E28AD00385A3B /* FeelingSelectVC.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 561}}";
+			sepNavSelRange = "{207, 0}";
+			sepNavVisRange = "{0, 497}";
+		};
+	};
+	8FDC5C56132E28AD00385A3B /* FeelingSelectVC.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 2490}}";
+			sepNavSelRange = "{2141, 0}";
+			sepNavVisRange = "{2055, 325}";
+		};
+	};
+	8FDC5C60132E29EA00385A3B /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* FitnessPlan-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/jebe/Desktop/FitnessPlan Project/FitnessPlan/FitnessPlan-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	8FDC5C63132E29EA00385A3B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE8971651247391B00672AF3 /* ColorSelectVC.m */;
+		name = "ColorSelectVC.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1180;
+		vrLoc = 0;
+	};
+	8FDC5C64132E29EA00385A3B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE85CA211266375D00DC03B7 /* WeightEditVC.m */;
+		name = "WeightEditVC.m: 47";
+		rLen = 0;
+		rLoc = 1571;
+		rType = 0;
+		vrLen = 1357;
+		vrLoc = 480;
+	};
+	8FDC5C65132E29EA00385A3B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE4C11EC1240800F00A71372 /* RepeatStepSelectVC.h */;
+		name = "RepeatStepSelectVC.h: 13";
+		rLen = 262;
+		rLoc = 246;
+		rType = 0;
+		vrLen = 508;
+		vrLoc = 0;
+	};
+	8FDC5C66132E29EA00385A3B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8FDC5C55132E28AD00385A3B /* FeelingSelectVC.h */;
+		name = "FeelingSelectVC.h: 11";
+		rLen = 0;
+		rLoc = 207;
+		rType = 0;
+		vrLen = 497;
+		vrLoc = 0;
+	};
+	8FDC5C67132E29EA00385A3B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE4C11ED1240800F00A71372 /* RepeatStepSelectVC.m */;
+		name = "RepeatStepSelectVC.m: 1";
+		rLen = 3628;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1226;
+		vrLoc = 0;
+	};
+	8FDC5CB1132E2D6700385A3B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8FDC5C56132E28AD00385A3B /* FeelingSelectVC.m */;
+		name = "FeelingSelectVC.m: 119";
+		rLen = 25;
+		rLoc = 3074;
+		rType = 0;
+		vrLen = 1121;
+		vrLoc = 2271;
+	};
+	8FDC5CFE132E313900385A3B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE8971391247362600672AF3 /* EditWorkoutViewController.h */;
+		name = "EditWorkoutViewController.h: 46";
+		rLen = 0;
+		rLoc = 1062;
+		rType = 0;
+		vrLen = 906;
+		vrLoc = 387;
+	};
+	8FDC5D00132E313900385A3B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE74DEEE123B385500D57323 /* Settings.m */;
+		name = "Settings.m: 49";
+		rLen = 0;
+		rLoc = 993;
+		rType = 0;
+		vrLen = 851;
+		vrLoc = 147;
+	};
+	8FDC5D0B132E31AA00385A3B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FitnessPlanAppDelegate.m */;
+		name = "FitnessPlanAppDelegate.m: 170";
+		rLen = 0;
+		rLoc = 5363;
+		rType = 0;
+		vrLen = 1113;
+		vrLoc = 3922;
+	};
+	8FDC5D0C132E31AA00385A3B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE84B1911238A7570088C105 /* Workout.m */;
+		name = "Workout.m: 171";
+		rLen = 0;
+		rLoc = 2857;
+		rType = 0;
+		vrLen = 679;
+		vrLoc = 2185;
+	};
+	8FDC5D0D132E31AA00385A3B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE84B1901238A7570088C105 /* Workout.h */;
+		name = "Workout.h: 71";
+		rLen = 0;
+		rLoc = 2092;
+		rType = 0;
+		vrLen = 1263;
+		vrLoc = 836;
+	};
+	8FDC5D22132E32CA00385A3B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE4A3E5912B254960081F9E4 /* WeatherEditVC.h */;
+		name = "WeatherEditVC.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 623;
+		vrLoc = 0;
+	};
+	8FDC5D31132E39CB00385A3B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE4A3E5A12B254960081F9E4 /* WeatherEditVC.m */;
+		name = "WeatherEditVC.m: 226";
+		rLen = 0;
+		rLoc = 5636;
+		rType = 0;
+		vrLen = 1182;
+		vrLoc = 4603;
+	};
+	8FE87FF413057CB800625A62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE4C107A123FBDB500A71372 /* NameEditVC.m */;
+		name = "NameEditVC.m: 12";
+		rLen = 0;
+		rLoc = 208;
+		rType = 0;
+		vrLen = 1005;
+		vrLoc = 0;
+	};
+	8FE87FFD13057D0C00625A62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE4C107D123FBDCE00A71372 /* DateSelectVC.m */;
+		name = "DateSelectVC.m: 165";
+		rLen = 197;
+		rLoc = 4444;
+		rType = 0;
+		vrLen = 1052;
+		vrLoc = 3936;
+	};
+	8FE8800813057D5800625A62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE4C11EF1240800F00A71372 /* RepeatTillSelectVC.m */;
+		name = "RepeatTillSelectVC.m: 150";
+		rLen = 0;
+		rLoc = 4299;
+		rType = 0;
+		vrLen = 1093;
+		vrLoc = 3417;
+	};
+	8FE8801D13057DE600625A62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE8971631247391B00672AF3 /* AmountEditVC.m */;
+		name = "AmountEditVC.m: 51";
+		rLen = 0;
+		rLoc = 1825;
+		rType = 0;
+		vrLen = 1419;
+		vrLoc = 683;
+	};
+	8FE8802C13057E6F00625A62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE8971691247391B00672AF3 /* ExpendedTimeEditVC.m */;
+		name = "ExpendedTimeEditVC.m: 242";
+		rLen = 196;
+		rLoc = 6548;
+		rType = 0;
+		vrLen = 1048;
+		vrLoc = 6054;
+	};
+	8FE8802D13057E6F00625A62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE85C9F4126633D900DC03B7 /* HRateEditVC.m */;
+		name = "HRateEditVC.m: 47";
+		rLen = 0;
+		rLoc = 1492;
+		rType = 0;
+		vrLen = 1297;
+		vrLoc = 237;
+	};
+	8FE8804913057FC200625A62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE8971671247391B00672AF3 /* NotesEditVC.m */;
+		name = "NotesEditVC.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1225;
+		vrLoc = 141;
+	};
+	8FE8804B13057FC200625A62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EED73DF112D3944500114684 /* CloudinessEditVC.h */;
+		name = "CloudinessEditVC.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 506;
+		vrLoc = 0;
+	};
+	8FE8804D13057FC200625A62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE5F5B4C12375D7700840F45 /* FitnessPlanViewController.h */;
+		name = "FitnessPlanViewController.h: 66";
+		rLen = 0;
+		rLoc = 1531;
+		rType = 0;
+		vrLen = 945;
+		vrLoc = 586;
+	};
+	8FE8805013057FC200625A62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE5F5B4D12375D7700840F45 /* FitnessPlanViewController.m */;
+		name = "FitnessPlanViewController.m: 465";
+		rLen = 0;
+		rLoc = 12820;
+		rType = 0;
+		vrLen = 1145;
+		vrLoc = 11978;
+	};
+	8FE8805113057FC200625A62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE4C118B123FEBA400A71372 /* WorkoutViewController.h */;
+		name = "WorkoutViewController.h: 50";
+		rLen = 0;
+		rLoc = 1096;
+		rType = 0;
+		vrLen = 860;
+		vrLoc = 238;
+	};
+	8FE880D81305849000625A62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EECAEEB212379418003CC8BD /* en */;
+		name = "Localizable.strings: 15";
+		rLen = 0;
+		rLoc = 283;
+		rType = 0;
+		vrLen = 283;
+		vrLoc = 0;
+	};
+	EE4A3E5912B254960081F9E4 /* WeatherEditVC.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 584}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 623}";
+		};
+	};
+	EE4A3E5A12B254960081F9E4 /* WeatherEditVC.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 3885}}";
+			sepNavSelRange = "{5636, 0}";
+			sepNavVisRange = "{5455, 330}";
+		};
+	};
+	EE4C107A123FBDB500A71372 /* NameEditVC.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 3570}}";
+			sepNavSelRange = "{208, 0}";
+			sepNavVisRange = "{0, 210}";
+		};
+	};
+	EE4C107C123FBDCD00A71372 /* DateSelectVC.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 584}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 619}";
+		};
+	};
+	EE4C107D123FBDCE00A71372 /* DateSelectVC.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 3120}}";
+			sepNavSelRange = "{4641, 0}";
+			sepNavVisRange = "{4443, 324}";
+		};
+	};
+	EE4C118B123FEBA400A71372 /* WorkoutViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 795}}";
+			sepNavSelRange = "{1096, 0}";
+			sepNavVisRange = "{238, 860}";
+			sepNavWindowFrame = "{{15, 208}, {1002, 665}}";
+		};
+	};
+	EE4C118C123FEBA400A71372 /* WorkoutViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 7020}}";
+			sepNavSelRange = "{14143, 0}";
+			sepNavVisRange = "{13870, 373}";
+		};
+	};
+	EE4C11EC1240800F00A71372 /* RepeatStepSelectVC.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 561}}";
+			sepNavSelRange = "{246, 262}";
+			sepNavVisRange = "{0, 508}";
+		};
+	};
+	EE4C11ED1240800F00A71372 /* RepeatStepSelectVC.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 2100}}";
+			sepNavSelRange = "{0, 3628}";
+			sepNavVisRange = "{0, 1226}";
+		};
+	};
+	EE4C11EF1240800F00A71372 /* RepeatTillSelectVC.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 2775}}";
+			sepNavSelRange = "{4299, 0}";
+			sepNavVisRange = "{4099, 324}";
+		};
+	};
+	EE5F5B4C12375D7700840F45 /* FitnessPlanViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 990}}";
+			sepNavSelRange = "{1531, 0}";
+			sepNavVisRange = "{586, 945}";
+		};
+	};
+	EE5F5B4D12375D7700840F45 /* FitnessPlanViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {908, 8385}}";
+			sepNavSelRange = "{12820, 0}";
+			sepNavVisRange = "{11978, 1145}";
+		};
+	};
+	EE74DDCF123AA1CF00D57323 /* Config.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 108}, {1002, 665}}";
+		};
+	};
+	EE74DE23123AA84F00D57323 /* WorkoutButton.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {936, 4125}}";
+			sepNavSelRange = "{3454, 0}";
+			sepNavVisRange = "{2944, 1152}";
+		};
+	};
+	EE74DEED123B385500D57323 /* Settings.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 885}}";
+			sepNavSelRange = "{1027, 0}";
+			sepNavVisRange = "{133, 1008}";
+		};
+	};
+	EE74DEEE123B385500D57323 /* Settings.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 750}}";
+			sepNavSelRange = "{993, 0}";
+			sepNavVisRange = "{147, 851}";
+		};
+	};
+	EE84B1901238A7570088C105 /* Workout.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 1110}}";
+			sepNavSelRange = "{2092, 0}";
+			sepNavVisRange = "{836, 1263}";
+		};
+	};
+	EE84B1911238A7570088C105 /* Workout.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 2790}}";
+			sepNavSelRange = "{2857, 0}";
+			sepNavVisRange = "{2185, 679}";
+		};
+	};
+	EE85C9F4126633D900DC03B7 /* HRateEditVC.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 2205}}";
+			sepNavSelRange = "{1492, 0}";
+			sepNavVisRange = "{237, 1297}";
+		};
+	};
+	EE85CA211266375D00DC03B7 /* WeightEditVC.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {901, 2250}}";
+			sepNavSelRange = "{1571, 0}";
+			sepNavVisRange = "{480, 1357}";
+		};
+	};
+	EE8971391247362600672AF3 /* EditWorkoutViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 870}}";
+			sepNavSelRange = "{1062, 0}";
+			sepNavVisRange = "{387, 906}";
+		};
+	};
+	EE89713A1247362600672AF3 /* EditWorkoutViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 15840}}";
+			sepNavSelRange = "{361, 0}";
+			sepNavVisRange = "{627, 486}";
+			sepNavWindowFrame = "{{15, 208}, {1002, 665}}";
+		};
+	};
+	EE8971631247391B00672AF3 /* AmountEditVC.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 2925}}";
+			sepNavSelRange = "{1505, 0}";
+			sepNavVisRange = "{1731, 288}";
+		};
+	};
+	EE8971651247391B00672AF3 /* ColorSelectVC.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 2220}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1180}";
+		};
+	};
+	EE8971671247391B00672AF3 /* NotesEditVC.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 2115}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{311, 551}";
+		};
+	};
+	EE8971691247391B00672AF3 /* ExpendedTimeEditVC.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 4245}}";
+			sepNavSelRange = "{6688, 0}";
+			sepNavVisRange = "{6462, 402}";
+		};
+	};
+	EECAEEA612379310003CC8BD /* ru */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 584}}";
+			sepNavSelRange = "{305, 0}";
+			sepNavVisRange = "{0, 305}";
+		};
+	};
+	EECAEEB212379418003CC8BD /* en */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 584}}";
+			sepNavSelRange = "{283, 0}";
+			sepNavVisRange = "{0, 283}";
+			sepNavWindowFrame = "{{15, 208}, {1002, 665}}";
+		};
+	};
+	EED73DF112D3944500114684 /* CloudinessEditVC.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 584}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 506}";
+		};
+	};
+	EED73DF212D3944500114684 /* CloudinessEditVC.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 2385}}";
+			sepNavSelRange = "{2957, 218}";
+			sepNavVisRange = "{2332, 1081}";
+		};
+	};
+}
